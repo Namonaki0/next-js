@@ -5,5 +5,5 @@ export default function ProductList({
         productId: string
     }
 }){
-    return <h1 className="fixed inset-0 grid w-full h-full place-content-center bg-black text-white">Details about product { params.productId }</h1>
+    return <h1 >Details about product { params.productId }</h1>
 }
